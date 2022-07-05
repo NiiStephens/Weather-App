@@ -1,0 +1,90 @@
+/* styling for our weather-application */
+body {
+    background-image: url(https://images.unsplash.com/photo-1590552515252-3a5a1bce7bed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  /* Styling of the Box with the Results */
+  
+  .card {
+    background: 00FFFFFF;
+    align-items: center;
+    color: black;
+    padding: 2em;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 350px;
+    margin: 1em;
+  }
+  /* Styling of Search Class*/
+  
+  /* Styling of the Search Button */
+  
+  /* Styling of the input feild */
+  input {
+    border: 0.5px solid white;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 25px;
+  
+    color: black;
+    font-family: inherit;
+    font-size: 120%;
+    cursor: pointer;
+  }
+  .container {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+  }
+  
+  #header {
+    color: white;
+  
+    margin: 0 420px;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #city {
+    margin-top: 30px;
+    width: 900px;
+  }
+  
+  #btn {
+    margin-top: 20px;
+  }
+  
+  #header {
+    margin-top: 30px;
+  }
+  
+  .contain h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .contain a {
+    align-items: center;
+    border-radius: 60%;
+    justify-content: center;
+    margin: 150px 0px 0px 600px;
+  }
+  
